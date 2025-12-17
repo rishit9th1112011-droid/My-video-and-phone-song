@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(-45deg, #ff416c, #ff4b2b, #1e90ff, #00c6ff);
+  background-size: 400% 400%;
+  animation: bg 10s ease infinite;
+}
+
+@keyframes bg {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+video {
+  border: 4px solid;
+  border-image: linear-gradient(45deg, red, blue, green, yellow) 1;
+}
+audio{
+  border: 2px solid#64eed1;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+audio{
+  padding: 10px;
+  border-radius: 12px;
+  background: linear-gradient(45deg, red, blue, green);
+}
+
+audio {
+  background: #000;
+  border-radius: 10px;
+}
+h1{
+  border:#58eb4b;
+}
+h1, h3 {
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 8px;
+}
